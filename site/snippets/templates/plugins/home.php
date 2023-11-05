@@ -66,7 +66,7 @@
 
 <?php snippet('templates/plugins/section', [
   'id'      => 'blocks',
-  'icon'    => 'widget',
+  'icon'    => 'layout',
   'title'   => 'Blocks',
   'layout'  => 'cards',
   'plugins' => [
@@ -77,7 +77,7 @@
 ]) ?>
 
 <?php snippet('templates/plugins/section', [
-  'icon'    => 'widget',
+  'icon'    => 'layout',
   'id'      => 'extensions',
   'title'   => 'Panel Extensions',
   'layout'  => 'cards',

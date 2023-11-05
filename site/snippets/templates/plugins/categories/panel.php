@@ -1,5 +1,5 @@
 <?php snippet('templates/plugins/section', [
-  'icon'    => 'widget',
+  'icon'    => 'layout',
   'id'      => 'extensions',
   'title'   => 'Views',
   'layout'  => 'hero',
@@ -9,7 +9,7 @@
 
 <?php snippet('templates/plugins/section', [
   'id'      => 'blocks',
-  'icon'    => 'widget',
+  'icon'    => 'layout',
   'title'   => 'Blocks',
   'layout'  => 'cards',
   'plugins' => $plugins->filter('subcategory', 'block')->pluck('id')
@@ -17,7 +17,7 @@
 
 <?php snippet('templates/plugins/section', [
   'id'      => 'sections',
-  'icon'    => 'widget',
+  'icon'    => 'layout',
   'title'   => 'Sections',
   'layout'  => 'cards',
   'plugins' => $plugins->filter('subcategory', 'section')->pluck('id')
@@ -25,7 +25,7 @@
 
 <?php snippet('templates/plugins/section', [
   'id'      => 'enhancements',
-  'icon'    => 'widget',
+  'icon'    => 'layout',
   'title'   => 'Enhancements',
   'layout'  => 'cards',
   'columns' => 2,
