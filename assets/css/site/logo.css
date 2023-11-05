@@ -4,6 +4,8 @@
 }
 .logo svg {
   display: flex;
+	width: 36px;
+	height: 42px;
 }
 
 .logo + .version.archived .link {

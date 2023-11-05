@@ -5,6 +5,13 @@
     'subtitle' => 'Performant, well-tested and cost-effective',
   ]) ?>
 
+	<style>
+	#techstack svg {
+		width: auto;
+		height: 100%;
+	}
+	</style>
+
   <div class="columns text-sm overflow-hidden rounded" style="--columns-md: 2; --columns: 4; --gap: var(--spacing-1)">
     <article class="p-6 bg-light">
       <figure class="mb-6" style="height: 3rem">
