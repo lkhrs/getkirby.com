@@ -2,7 +2,7 @@ Title: Better Search
 
 ----
 
-Text:
+Text: 
 
 ----
 
@@ -27,3 +27,7 @@ $pages->bettersearch($string, $options)
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 21

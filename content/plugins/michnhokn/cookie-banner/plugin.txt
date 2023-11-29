@@ -2,7 +2,7 @@ Title: Cookie Consent Modal
 
 ----
 
-Text:
+Text: 
 
 ----
 
@@ -35,3 +35,7 @@ Example:
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 64

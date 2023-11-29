@@ -2,7 +2,7 @@ Title: Autopublish
 
 ----
 
-Text:
+Text: 
 
 ----
 
@@ -35,3 +35,7 @@ autounpublish:
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 27

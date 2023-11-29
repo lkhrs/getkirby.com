@@ -33,3 +33,7 @@ foreach ($page->fruits()->toChoices() as $fruit) {
 ----
 
 Versions: 3
+
+----
+
+Stars: 17

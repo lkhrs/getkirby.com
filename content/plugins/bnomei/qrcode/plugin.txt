@@ -2,7 +2,7 @@ Title: QR Code
 
 ----
 
-Text:
+Text: 
 
 ----
 
@@ -29,3 +29,7 @@ fields:
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 10

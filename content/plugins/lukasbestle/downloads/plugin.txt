@@ -42,3 +42,7 @@ Composer: lukasbestle/kirby-downloads
 ----
 
 Versions: 3
+
+----
+
+Stars: 23

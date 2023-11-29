@@ -2,7 +2,7 @@ Title: Secured Pages
 
 ----
 
-Text:
+Text: 
 
 ----
 
@@ -27,3 +27,7 @@ Similar: johannschopplich/locked-pages
 ----
 
 Versions: 3
+
+----
+
+Stars: 30

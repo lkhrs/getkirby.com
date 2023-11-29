@@ -2,7 +2,7 @@ Title: Posthog
 
 ----
 
-Text:
+Text: 
 
 ----
 
@@ -35,3 +35,7 @@ snippet('posthog');
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 2

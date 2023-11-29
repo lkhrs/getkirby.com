@@ -19,3 +19,7 @@ Description: Provides a field to trigger custom webhooks and see their status th
 ----
 
 Versions: 3
+
+----
+
+Stars: 32

@@ -2,7 +2,7 @@ Title: Kirby Template Sugar
 
 ----
 
-Text:
+Text: 
 
 ----
 
@@ -27,3 +27,7 @@ Description: Syntactic sugar for Kirby templates that makes working with snippet
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 26

@@ -23,3 +23,7 @@ Description: Create a static version of your site. Upload the generated files to
 ----
 
 Versions: 3
+
+----
+
+Stars: 131

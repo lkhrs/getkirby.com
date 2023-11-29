@@ -38,3 +38,7 @@ Description: Add and manage redirects based on rules, supporting wildcards and H
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 117

@@ -2,6 +2,10 @@ Title: PHP Class-based Blueprints
 
 ----
 
+Text: 
+
+----
+
 Repository: https://github.com/bnomei/kirby-blueprints
 
 ----
@@ -25,3 +29,7 @@ return Field::make(FieldTypes::TEXT)
     ->label('Description')
     ->toArray();
 ```
+
+----
+
+Stars: 11

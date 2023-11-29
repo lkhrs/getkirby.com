@@ -317,3 +317,7 @@ Example:
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 46

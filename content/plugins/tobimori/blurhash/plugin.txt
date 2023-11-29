@@ -2,7 +2,7 @@ Title: BlurHash
 
 ----
 
-Text:
+Text: 
 
 ----
 
@@ -27,3 +27,7 @@ Published: 2023-01-07
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 28

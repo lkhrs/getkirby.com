@@ -2,7 +2,7 @@ Title: Monolog
 
 ----
 
-Text:
+Text: 
 
 ----
 
@@ -34,3 +34,7 @@ monolog()->info('test-' . time()), [
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 2

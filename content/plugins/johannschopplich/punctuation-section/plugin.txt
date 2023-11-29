@@ -2,7 +2,7 @@ Title: Punctuation Section
 
 ----
 
-Text:
+Text: 
 
 ----
 
@@ -23,3 +23,7 @@ Description: Copy commonly used characters to your clipboard
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 27

@@ -2,7 +2,7 @@ Title: Grid Block
 
 ----
 
-Text:
+Text: 
 
 ----
 
@@ -23,3 +23,7 @@ Description: With this plugin you can use layouts right within any blocks field!
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 27

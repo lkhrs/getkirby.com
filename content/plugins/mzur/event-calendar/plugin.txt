@@ -23,3 +23,7 @@ Description: A plugin for the Kirby CMS to easily implement an event calendar.
 ----
 
 Versions: 3
+
+----
+
+Stars: 95

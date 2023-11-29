@@ -2,7 +2,7 @@ Title: KQL Nuxt
 
 ----
 
-Text:
+Text: 
 
 ----
 
@@ -23,3 +23,7 @@ Description: This plugin allows ease of access to all of your Kirby pages on sit
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 17

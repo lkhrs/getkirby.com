@@ -23,3 +23,7 @@ Description: A color palette field, helping you pick predefined colors / palette
 ----
 
 Versions: 3
+
+----
+
+Stars: 58

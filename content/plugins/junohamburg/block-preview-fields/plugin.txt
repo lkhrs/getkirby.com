@@ -42,3 +42,7 @@ Composer: junohamburg/kirby-block-preview-fields
 ----
 
 Versions: 3
+
+----
+
+Stars: 20

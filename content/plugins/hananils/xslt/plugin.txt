@@ -23,3 +23,7 @@ Description: Template component for XSLT support in your templates. It let's you
 ----
 
 Versions: 3
+
+----
+
+Stars: 7

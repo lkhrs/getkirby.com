@@ -2,7 +2,7 @@ Title: Illuminate Database
 
 ----
 
-Text:
+Text: 
 
 ----
 
@@ -33,3 +33,7 @@ DB::table('users')->get();
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 11

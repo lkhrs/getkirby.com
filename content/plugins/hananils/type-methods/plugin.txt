@@ -2,7 +2,7 @@ Title: Type Methods
 
 ----
 
-Text:
+Text: 
 
 ----
 
@@ -30,3 +30,7 @@ $page->isType('article');
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 5

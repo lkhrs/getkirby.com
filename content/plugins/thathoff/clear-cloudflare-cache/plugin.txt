@@ -2,7 +2,7 @@ Title: Clear Cloudflare Cache
 
 ----
 
-Text:
+Text: 
 
 ----
 
@@ -23,3 +23,7 @@ Description: Automatically purge Cloudflare cached URLs
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 10

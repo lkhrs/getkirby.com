@@ -2,7 +2,7 @@ Title: Kirbylog
 
 ----
 
-Text:
+Text: 
 
 ----
 
@@ -31,3 +31,7 @@ kirbylog('Something happened', 'error');
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 16

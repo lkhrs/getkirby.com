@@ -23,3 +23,7 @@ Description: Exposes the internal REST API at /rest with the option to convert K
 ----
 
 Versions: 3
+
+----
+
+Stars: 53

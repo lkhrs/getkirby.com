@@ -19,3 +19,7 @@ Description: This plugin allows to define the fields shown on Kirby's page add d
 ----
 
 Versions: 3
+
+----
+
+Stars: 37

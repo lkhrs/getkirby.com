@@ -8,12 +8,12 @@ return function($page, $filter) {
 	$category   = param('category');
 	$heading    = 'Featured';
 
+
 	if ($category && array_key_exists($category, $categories) === true) {
 		$plugins = $page
 			->children()
 			->children()
-			->filterBy('recommended', '')
-			->sortBy('title', 'asc');
+			->filterBy('recommended', '');
 
 		$plugins = $plugins->filterBy('category', $category);
 		$heading = $categories[$category]['label'];
@@ -21,19 +21,11 @@ return function($page, $filter) {
 	} else if ($category === 'all') {
 			$heading  = 'All plugins';
 			$category = 'all';
-			$plugins  = $page
-					->grandChildren()
-					->sortBy('title', 'asc');
+			$plugins  = $page->grandChildren();
 	} else if ($filter === 'k4') {
 			$heading  = 'Kirby 4 plugins';
 			$category = 'k4';
-			$plugins  = $page
-					->grandChildren()
-					->filter('versions', '*=', '4')
-					->sortBy('title', 'asc');
-	} elseif ($filter) {
-			$heading = 'Newly added plugins';
-			$plugins = $page->grandChildren()->filterBy('isNew', true);
+			$plugins  = $page->grandChildren()->filter('versions', '*=', '4');
 	} else {
 		$category = null;
 		$plugins  = new Pages();
@@ -42,7 +34,13 @@ return function($page, $filter) {
 			go('plugins/k4');
 		}
 	}
-		return [
+
+	$plugins = match (get('sort')) {
+		'stars' => $plugins->sortBy('stars', 'desc'),
+		default => $plugins->sortBy('title', 'asc'),
+	};
+
+	return [
 		'categories'      => $categories,
 		'currentCategory' => $category,
 		'heading'         => $heading,

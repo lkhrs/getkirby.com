@@ -2,48 +2,6 @@ Title: GEO
 
 ----
 
-Repository: https://github.com/getkirby/geo
-
-----
-
-Category: templating
-
-----
-
-Description: This plugin adds basic geo search and conversion functionalities to Kirby
-
-----
-
-License:
-
-name: MIT license
-url: https://github.com/getkirby/geo/blob/main/LICENSE
-
-----
-
-Installation: true
-
-----
-
-Composer: getkirby/geo
-
-----
-
-Versions: 3,4
-
-----
-
-Example:
-
-```php
-$point = Geo::point(49.4883333, 8.4647222);
-
-echo $point->lat();
-echo $point->lng();
-```
-
-----
-
 Text:
 
 ## Geo Class Option
@@ -194,3 +152,49 @@ $hamburg = Geo::point(53.553436, 9.992247);
 
 echo $page->location()->niceDistance($hamburg);
 ```
+
+----
+
+Repository: https://github.com/getkirby/geo
+
+----
+
+Category: templating
+
+----
+
+Description: This plugin adds basic geo search and conversion functionalities to Kirby
+
+----
+
+License:
+
+name: MIT license
+url: https://github.com/getkirby/geo/blob/main/LICENSE
+
+----
+
+Installation: true
+
+----
+
+Composer: getkirby/geo
+
+----
+
+Versions: 3,4
+
+----
+
+Example:
+
+```php
+$point = Geo::point(49.4883333, 8.4647222);
+
+echo $point->lat();
+echo $point->lng();
+```
+
+----
+
+Stars: 19

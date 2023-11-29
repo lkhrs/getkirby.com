@@ -2,7 +2,7 @@ Title: DotEnv
 
 ----
 
-Text:
+Text: 
 
 ----
 
@@ -35,3 +35,7 @@ env('APP_DEBUG');
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 28

@@ -2,7 +2,7 @@ Title: List Methods
 
 ----
 
-Text:
+Text: 
 
 ----
 
@@ -34,3 +34,7 @@ $files->toList();
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 9

@@ -23,3 +23,7 @@ Description: Add interactive areas to mark people, cooking ingredients, technica
 ----
 
 Versions: 3
+
+----
+
+Stars: 105

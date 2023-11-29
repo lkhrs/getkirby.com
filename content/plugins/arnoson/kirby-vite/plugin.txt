@@ -2,7 +2,7 @@ Title: Kirby Vite
 
 ----
 
-Text:
+Text: 
 
 ----
 
@@ -23,3 +23,7 @@ Description: A set of helper functions to get the correct path to your versioned
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 59

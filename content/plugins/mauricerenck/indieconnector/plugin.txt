@@ -2,7 +2,7 @@ Title: IndieConnector
 
 ----
 
-Text:
+Text: 
 
 ----
 
@@ -31,3 +31,7 @@ Composer: mauricerenck/indieconnector
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 14

@@ -23,3 +23,7 @@ Description: Display subpages in a flexible, sortable and searchable table.
 ----
 
 Versions: 3
+
+----
+
+Stars: 116

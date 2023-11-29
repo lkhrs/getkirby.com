@@ -2,7 +2,7 @@ Title: Merx
 
 ----
 
-Text:
+Text: 
 
 ----
 
@@ -23,3 +23,7 @@ Description: A powerful toolkit to cre­ate your very own on­line shop. Start e
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 93

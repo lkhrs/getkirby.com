@@ -2,7 +2,7 @@ Title: Goat Counter
 
 ----
 
-Text:
+Text: 
 
 ----
 
@@ -23,3 +23,7 @@ Description: Simple plugin providing Goat Counter iframe panel view and a simple
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 4

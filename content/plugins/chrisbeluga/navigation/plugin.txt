@@ -23,3 +23,7 @@ Description: Menu builder field to create any type of navigation menu
 ----
 
 Versions: 3
+
+----
+
+Stars: 77

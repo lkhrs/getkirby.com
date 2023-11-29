@@ -2,7 +2,7 @@ Title: Stripe
 
 ----
 
-Text:
+Text: 
 
 ----
 
@@ -19,3 +19,7 @@ Description: Connect to Stripe to easily create product checkouts and more.
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 8

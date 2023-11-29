@@ -2,7 +2,7 @@ Title: Types
 
 ----
 
-Text:
+Text: 
 
 ----
 
@@ -38,3 +38,7 @@ Example:
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 13

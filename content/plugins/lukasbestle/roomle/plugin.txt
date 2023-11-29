@@ -38,3 +38,7 @@ Composer: lukasbestle/kirby-roomle
 ----
 
 Versions: 3
+
+----
+
+Stars: 8

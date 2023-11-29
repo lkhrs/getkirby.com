@@ -23,3 +23,7 @@ Description: Add enhanced and missing structure previews for various fields in t
 ----
 
 Versions: 3
+
+----
+
+Stars: 52

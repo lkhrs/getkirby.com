@@ -2,7 +2,7 @@ Title: Mailjet
 
 ----
 
-Text:
+Text: 
 
 ----
 
@@ -23,3 +23,7 @@ Description: Send transactional SMS, transactional E-Mail and Campaigns with Mai
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 14

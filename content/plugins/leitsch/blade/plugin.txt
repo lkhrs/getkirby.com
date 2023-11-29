@@ -2,7 +2,7 @@ Title: Blade Templates
 
 ----
 
-Text:
+Text: 
 
 ----
 
@@ -23,3 +23,7 @@ Description: Use Laravel Blade templates for your Kirby site
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 13

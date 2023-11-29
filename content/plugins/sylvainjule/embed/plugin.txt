@@ -23,3 +23,7 @@ Description: Display embeds from various media sites (YouTube, Vimeo, Soundcloud
 ----
 
 Versions: 3
+
+----
+
+Stars: 68

@@ -2,7 +2,7 @@ Title: Komments
 
 ----
 
-Text:
+Text: 
 
 ----
 
@@ -35,3 +35,7 @@ Composer: mauricerenck/komments
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 35

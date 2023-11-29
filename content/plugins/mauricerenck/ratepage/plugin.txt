@@ -2,7 +2,7 @@ Title: Rate Page
 
 ----
 
-Text:
+Text: 
 
 ----
 
@@ -23,3 +23,7 @@ Description: A page rating plugin. Working without page reload and can also rece
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 11

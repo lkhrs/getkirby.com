@@ -2,7 +2,7 @@ Title: Webhooks
 
 ----
 
-Text:
+Text: 
 
 ----
 
@@ -23,3 +23,7 @@ Description: Lets you register custom webhooks based on kirby hooks.
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 11

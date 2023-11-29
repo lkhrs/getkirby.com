@@ -2,7 +2,7 @@ Title: Log
 
 ----
 
-Text:
+Text: 
 
 ----
 
@@ -31,3 +31,7 @@ $site->log('My message', 'error');
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 20

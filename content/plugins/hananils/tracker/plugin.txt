@@ -38,3 +38,7 @@ Example:
 ----
 
 Versions: 3
+
+----
+
+Stars: 11

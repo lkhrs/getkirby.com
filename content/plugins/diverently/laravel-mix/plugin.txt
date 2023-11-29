@@ -2,7 +2,7 @@ Title: Laravel Mix Helper
 
 ----
 
-Text:
+Text: 
 
 ----
 
@@ -23,3 +23,7 @@ Description: Use the mix helper function to get the correct path to your version
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 23

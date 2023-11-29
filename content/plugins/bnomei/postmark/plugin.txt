@@ -2,7 +2,7 @@ Title: Postmark
 
 ----
 
-Text:
+Text: 
 
 ----
 
@@ -23,3 +23,7 @@ Description: Send transactional E-Mail with Postmark
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 4

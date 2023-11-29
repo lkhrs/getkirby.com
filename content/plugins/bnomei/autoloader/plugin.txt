@@ -2,7 +2,7 @@ Title: Autoloader
 
 ----
 
-Text:
+Text: 
 
 ----
 
@@ -37,3 +37,7 @@ Kirby::plugin('bnomei/example', [
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 16

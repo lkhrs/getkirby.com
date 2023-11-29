@@ -23,3 +23,7 @@ Description: Allows you to add other fields to it with the intention of scoping 
 ----
 
 Versions: 3
+
+----
+
+Stars: 50

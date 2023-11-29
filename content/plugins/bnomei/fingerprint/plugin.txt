@@ -2,7 +2,7 @@ Title: Fingerprint
 
 ----
 
-Text:
+Text: 
 
 ----
 
@@ -31,3 +31,7 @@ $page->file('ukulele.pdf')->fingerprint();
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 35

@@ -2,7 +2,7 @@ Title: Podcaster
 
 ----
 
-Text:
+Text: 
 
 ----
 
@@ -31,3 +31,7 @@ Composer: mauricerenck/podcaster
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 43

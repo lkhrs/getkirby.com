@@ -2,7 +2,7 @@ Title: Shopify
 
 ----
 
-Text:
+Text: 
 
 ----
 
@@ -19,3 +19,7 @@ Description: Display products on your own site and integrate the checkout proces
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 58

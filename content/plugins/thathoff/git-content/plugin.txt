@@ -19,3 +19,7 @@ Description: Automatic commit and push of content changes made via the Panel to 
 ----
 
 Versions: 3
+
+----
+
+Stars: 121

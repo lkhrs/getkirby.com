@@ -2,7 +2,7 @@ Title: Autofavicon
 
 ----
 
-Text:
+Text: 
 
 ----
 
@@ -23,3 +23,7 @@ Description: Automatically generates an SVG favicon
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 22

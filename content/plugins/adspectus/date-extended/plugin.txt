@@ -2,7 +2,7 @@ Title: Date Extended
 
 ----
 
-Text:
+Text: 
 
 ----
 
@@ -23,3 +23,7 @@ Description: Plugin to provide two additional date fields which will store the c
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 6

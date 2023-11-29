@@ -23,3 +23,7 @@ Description: Sentry real-time crash reporting for Kirby CMS sites
 ----
 
 Versions: 3
+
+----
+
+Stars: 15

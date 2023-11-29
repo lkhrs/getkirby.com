@@ -42,3 +42,7 @@ Composer: junohamburg/kirby-reload-on-save
 ----
 
 Versions: 3
+
+----
+
+Stars: 25

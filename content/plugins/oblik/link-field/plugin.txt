@@ -23,3 +23,7 @@ Description: Kirby field for links of any kind - external, page, file, email, ph
 ----
 
 Versions: 3
+
+----
+
+Stars: 78

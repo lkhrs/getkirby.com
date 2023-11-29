@@ -23,3 +23,7 @@ Description: Use the table field plugin to provide an easy way for editors to cr
 ----
 
 Versions: 3
+
+----
+
+Stars: 22

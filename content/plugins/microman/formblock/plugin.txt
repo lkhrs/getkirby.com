@@ -31,3 +31,7 @@ Published: 2022-11-27
 ----
 
 Versions: 3
+
+----
+
+Stars: 28

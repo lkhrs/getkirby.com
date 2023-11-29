@@ -2,7 +2,7 @@ Title: Lapse
 
 ----
 
-Text:
+Text: 
 
 ----
 
@@ -50,3 +50,7 @@ $data = lapse(
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 17

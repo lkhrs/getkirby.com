@@ -27,3 +27,7 @@ Description: This plugin logs all actions in the panel and displays them in a se
 ----
 
 Versions: 3
+
+----
+
+Stars: 14

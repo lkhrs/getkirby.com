@@ -23,3 +23,7 @@ Description: Enables editors or clients to submit tasks, bugs and ideas to GitHu
 ----
 
 Versions: 3
+
+----
+
+Stars: 31

@@ -23,3 +23,7 @@ Description: Extend Kirby's default link dialog with a search functionality to c
 ----
 
 Versions: 3
+
+----
+
+Stars: 61

@@ -23,3 +23,7 @@ Description: Embed content from YouTube without compromising privacy.
 ----
 
 Versions: 3
+
+----
+
+Stars: 15

@@ -2,7 +2,7 @@ Title: Stopwatch
 
 ----
 
-Text:
+Text: 
 
 ----
 
@@ -35,3 +35,7 @@ echo site()->stopwatch()->duration('myevent');
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 11

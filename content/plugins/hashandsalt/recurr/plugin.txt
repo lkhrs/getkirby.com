@@ -2,7 +2,7 @@ Title: Recurr
 
 ----
 
-Text:
+Text: 
 
 ----
 
@@ -33,3 +33,7 @@ $datelist = $site->recurr(
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 10

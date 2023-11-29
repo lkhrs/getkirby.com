@@ -2,7 +2,7 @@ Title: MarkdownPlus
 
 ----
 
-Text:
+Text: 
 
 ----
 
@@ -27,3 +27,7 @@ See dedicated Doc <a href='https://pagefactory.info/markdownplus'>https://pagefa
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 4

@@ -34,3 +34,7 @@ https://www.mywebsite.com
 ----
 
 Versions: 3
+
+----
+
+Stars: 18

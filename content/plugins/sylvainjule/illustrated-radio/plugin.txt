@@ -23,3 +23,7 @@ Description: Combine images with radio buttons in this field, to provide an intu
 ----
 
 Versions: 3
+
+----
+
+Stars: 55

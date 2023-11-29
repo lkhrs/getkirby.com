@@ -2,7 +2,7 @@ Title: Headless Image Transformations
 
 ----
 
-Text:
+Text: 
 
 ----
 
@@ -38,3 +38,7 @@ thumbs/image.jpg
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 9

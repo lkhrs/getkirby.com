@@ -23,3 +23,7 @@ Description: A panel field allowing you to search pexels.com for stockphotos and
 ----
 
 Versions: 3
+
+----
+
+Stars: 7

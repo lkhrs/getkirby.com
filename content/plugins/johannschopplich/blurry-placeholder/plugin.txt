@@ -2,7 +2,7 @@ Title: Blurry Placeholder
 
 ----
 
-Text:
+Text: 
 
 ----
 
@@ -23,3 +23,7 @@ Description: Blurry image placeholders and progressive image loading for better 
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 64

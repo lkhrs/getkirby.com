@@ -23,3 +23,7 @@ Description: Display your Google Calendar entries as list on your website
 ----
 
 Versions: 3
+
+----
+
+Stars: 12

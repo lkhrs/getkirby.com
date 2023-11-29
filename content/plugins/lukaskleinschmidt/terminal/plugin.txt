@@ -2,7 +2,7 @@ Title: Terminal
 
 ----
 
-Text:
+Text: 
 
 ----
 
@@ -23,3 +23,7 @@ Description: Manage background processes from the panel. Define scripts like you
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 18

@@ -23,3 +23,7 @@ Description: Simple plugin providing plausible iframe panel view to kirby panel 
 ----
 
 Versions: 3
+
+----
+
+Stars: 20

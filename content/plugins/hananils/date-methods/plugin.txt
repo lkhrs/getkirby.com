@@ -2,7 +2,7 @@ Title: Date Methods
 
 ----
 
-Text:
+Text: 
 
 ----
 
@@ -31,3 +31,7 @@ $page
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 19

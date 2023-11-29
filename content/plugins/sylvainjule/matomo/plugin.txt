@@ -23,3 +23,7 @@ Description: Displays most important metrics of the extensive open-source tracki
 ----
 
 Versions: 3
+
+----
+
+Stars: 128

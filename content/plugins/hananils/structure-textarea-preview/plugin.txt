@@ -2,7 +2,7 @@ Title: Structure: Textarea Preview
 
 ----
 
-Text:
+Text: 
 
 ----
 
@@ -23,3 +23,7 @@ Description: Structure: Textarea Preview offers Markdown previews for textareas 
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 3

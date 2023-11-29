@@ -23,3 +23,7 @@ Description: Subpages for modular Kirby websites
 ----
 
 Versions: 3
+
+----
+
+Stars: 67

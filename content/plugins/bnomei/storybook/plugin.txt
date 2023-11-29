@@ -2,7 +2,7 @@ Title: Storybook
 
 ----
 
-Text:
+Text: 
 
 ----
 
@@ -31,3 +31,7 @@ kirby storybook:watch
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 19

@@ -2,7 +2,7 @@ Title: Recently Modified
 
 ----
 
-Text:
+Text: 
 
 ----
 
@@ -30,3 +30,7 @@ sections:
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 26

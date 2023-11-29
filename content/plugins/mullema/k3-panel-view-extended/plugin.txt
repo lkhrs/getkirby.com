@@ -30,3 +30,7 @@ options:
 ----
 
 Versions: 3
+
+----
+
+Stars: 26

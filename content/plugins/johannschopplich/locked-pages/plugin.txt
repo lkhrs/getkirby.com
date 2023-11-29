@@ -2,7 +2,7 @@ Title: Locked Pages
 
 ----
 
-Text:
+Text: 
 
 ----
 
@@ -36,3 +36,7 @@ Similar: kerli81/secured-pages
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 36

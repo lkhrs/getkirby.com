@@ -23,3 +23,7 @@ Description: Set the focus point of an image to prevent the relevant parts from 
 ----
 
 Versions: 3
+
+----
+
+Stars: 182

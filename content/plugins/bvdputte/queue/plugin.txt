@@ -2,7 +2,7 @@ Title: Queue
 
 ----
 
-Text:
+Text: 
 
 ----
 
@@ -33,3 +33,7 @@ $queue->addJob($job);
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 27

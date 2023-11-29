@@ -23,3 +23,7 @@ Description: This plugin provides a field for cropping images visually and very 
 ----
 
 Versions: 3
+
+----
+
+Stars: 15

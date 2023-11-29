@@ -2,7 +2,7 @@ Title: MySQL Cache Driver
 
 ----
 
-Text:
+Text: 
 
 ----
 
@@ -23,3 +23,7 @@ Description: MySQL based Cache-Driver
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 1

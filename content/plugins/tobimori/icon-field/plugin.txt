@@ -42,3 +42,7 @@ Composer: tobimori/kirby-icon-field
 ----
 
 Versions: 3
+
+----
+
+Stars: 27

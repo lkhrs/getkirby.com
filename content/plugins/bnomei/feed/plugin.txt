@@ -2,7 +2,7 @@ Title: Feed and Sitemap
 
 ----
 
-Text:
+Text: 
 
 ----
 
@@ -34,3 +34,7 @@ page('blog')->children()->feed([
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 55

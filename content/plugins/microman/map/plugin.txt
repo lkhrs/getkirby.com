@@ -2,7 +2,7 @@ Title: Map-Suite
 
 ----
 
-Text:
+Text: 
 
 ----
 
@@ -23,3 +23,7 @@ Description: Geolocation field & map block: All you need for a map on your websi
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 30

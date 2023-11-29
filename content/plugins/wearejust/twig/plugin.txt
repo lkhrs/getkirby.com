@@ -23,3 +23,7 @@ Description: Add support for Twig templates to your Kirby installation
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 10

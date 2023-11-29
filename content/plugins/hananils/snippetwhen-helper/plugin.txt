@@ -2,7 +2,7 @@ Title: snippetWhen Helper
 
 ----
 
-Text:
+Text: 
 
 ----
 
@@ -27,3 +27,7 @@ snippetWhen('article', $category->isNotEmpty())
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 6

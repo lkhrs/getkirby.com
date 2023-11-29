@@ -38,3 +38,7 @@ class MigrationTest extends Migration
 ----
 
 Versions: 3
+
+----
+
+Stars: 11

@@ -2,7 +2,7 @@ Title: Collect
 
 ----
 
-Text:
+Text: 
 
 ----
 
@@ -37,3 +37,7 @@ $mostPopularPage = $kirbyCollection
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 3

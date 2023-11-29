@@ -23,3 +23,7 @@ Description: Interface to use OAuth 2.0 providers for user authentication
 ----
 
 Versions: 3
+
+----
+
+Stars: 26

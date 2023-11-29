@@ -2,7 +2,7 @@ Title: Algolia DocSearch
 
 ----
 
-Text:
+Text: 
 
 ----
 
@@ -19,3 +19,7 @@ Description: Index and search your Kirby site with Algolia DocSearch
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 20

@@ -2,7 +2,7 @@ Title: Instagram
 
 ----
 
-Text:
+Text: 
 
 ----
 
@@ -23,3 +23,7 @@ Description: Plugin to help you show your own instagram feed on your website. Wo
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 45

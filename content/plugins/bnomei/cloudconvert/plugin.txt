@@ -2,7 +2,7 @@ Title: CloudConvert
 
 ----
 
-Text:
+Text: 
 
 ----
 
@@ -23,3 +23,7 @@ Description: Plugin to convert your files to other file types (i.e. mov to anima
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 7

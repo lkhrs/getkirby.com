@@ -23,3 +23,7 @@ Description: Using Kirby Chunky, you can easily bypass the upload limits of your
 ----
 
 Versions: 3
+
+----
+
+Stars: 39

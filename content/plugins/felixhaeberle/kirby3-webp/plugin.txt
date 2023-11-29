@@ -23,3 +23,7 @@ Description: This plugin converts JPG, JPEG and PNG into much smaller WEBP – s
 ----
 
 Versions: 3
+
+----
+
+Stars: 37

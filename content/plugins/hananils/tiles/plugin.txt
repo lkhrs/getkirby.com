@@ -2,7 +2,7 @@ Title: Tiles
 
 ----
 
-Text:
+Text: 
 
 ----
 
@@ -23,3 +23,7 @@ Description: Tiles is a plugin to serve basic vector map tiles (.mbtiles). The p
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 9

@@ -2,7 +2,7 @@ Title: Snippet Controller
 
 ----
 
-Text:
+Text: 
 
 ----
 
@@ -29,3 +29,7 @@ Example:
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 18

@@ -2,52 +2,6 @@ Title: Staticache
 
 ----
 
-Repository: https://github.com/getkirby/staticache
-
-----
-
-Category: performance
-
-----
-
-Description: Staticache gives you the performance of a static site generator for your regular Kirby installations.
-
-----
-
-License:
-
-name: MIT license
-url: https://github.com/getkirby/staticache/blob/main/LICENSE.md
-
-----
-
-Installation: true
-
-----
-
-Composer: getkirby/staticache
-
-----
-
-Versions: 3,4
-
-----
-
-Example:
-
-```php
-return [
-  'cache' => [
-    'pages' => [
-      'active' => true,
-      'type'   => 'static'
-    ]
-  ]
-];
-```
-
-----
-
 Text:
 
 ## Introduction
@@ -329,3 +283,53 @@ Replace the last six lines of the loader function with this code:
 
   die($body);
 ```
+
+----
+
+Repository: https://github.com/getkirby/staticache
+
+----
+
+Category: performance
+
+----
+
+Description: Staticache gives you the performance of a static site generator for your regular Kirby installations.
+
+----
+
+License:
+
+name: MIT license
+url: https://github.com/getkirby/staticache/blob/main/LICENSE.md
+
+----
+
+Installation: true
+
+----
+
+Composer: getkirby/staticache
+
+----
+
+Versions: 3,4
+
+----
+
+Example:
+
+```php
+return [
+  'cache' => [
+    'pages' => [
+      'active' => true,
+      'type'   => 'static'
+    ]
+  ]
+];
+```
+
+----
+
+Stars: 80

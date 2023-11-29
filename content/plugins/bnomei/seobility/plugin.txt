@@ -2,7 +2,7 @@ Title: Seobility – Keyword check
 
 ----
 
-Text:
+Text: 
 
 ----
 
@@ -19,3 +19,7 @@ Description: Plugin to use the free and paid API of Seobility.net like the keywo
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 7

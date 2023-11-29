@@ -2,7 +2,7 @@ Title: Yasumi
 
 ----
 
-Text:
+Text: 
 
 ----
 
@@ -27,3 +27,7 @@ $site->holidays('France', 2022);
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 5

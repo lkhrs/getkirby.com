@@ -13,18 +13,8 @@ use Kirby\Toolkit\Str;
 
 class PluginPage extends Page
 {
-	protected $info = null;
-	protected $latestTag = null;
-
-	public function cache(): Cache
-	{
-		return $this->kirby()->cache('plugins');
-	}
-
-	public function cacheId($section): string
-	{
-		return $this->id() . '/' . $section;
-	}
+	protected $_info = null;
+	protected $_latestTag = null;
 
 	public function card(): File|null
 	{
@@ -87,12 +77,12 @@ class PluginPage extends Page
 
 	public function info(bool $onlyIfCached = false)
 	{
-		if ($this->info !== null) {
-			return $this->info;
+		if ($this->_info !== null) {
+			return $this->_info;
 		}
 
-		$cacheId = $this->cacheId('info');
-		$info    = $this->cache()->get($cacheId) ?? false;
+		$cacheId = $this->infoCacheId('info');
+		$info    = $this->infoCache()->get($cacheId) ?? false;
 
 		if ($info === false) {
 			if ($onlyIfCached === true) {
@@ -117,13 +107,13 @@ class PluginPage extends Page
 
 			if ($info) {
 				// caches for 3 hours if we got a file
-				$this->cache()->set($cacheId, $info, 180);
+				$this->infoCache()->set($cacheId, $info, 180);
 
 				// remove plugins representation cache
 				$this->kirby()->cache('pages')->remove('plugins.json');
 			} else {
 				// keeps the cache of an unsuccessful response longer (one day) for performance
-				$this->cache()->set($cacheId, $info, 1440);
+				$this->infoCache()->set($cacheId, $info, 1440);
 			}
 		}
 
@@ -134,7 +124,17 @@ class PluginPage extends Page
 			return null;
 		}
 
-		return $this->info = Nest::create($info, $this);
+		return $this->_info = Nest::create($info, $this);
+	}
+
+	public function infoCache(): Cache
+	{
+		return $this->kirby()->cache('plugins');
+	}
+
+	public function infoCacheId($section): string
+	{
+		return $this->id() . '/' . $section;
 	}
 
 	public function isNew(): bool
@@ -144,8 +144,8 @@ class PluginPage extends Page
 
 	protected function latestTag(bool $onlyIfCached = false): string|null
 	{
-		if ($this->latestTag !== null) {
-			return $this->latestTag;
+		if ($this->_latestTag !== null) {
+			return $this->_latestTag;
 		}
 
 		$repo = $this->repository();
@@ -154,8 +154,8 @@ class PluginPage extends Page
 			return null;
 		}
 
-		$cacheId   = $this->cacheId('latestTag');
-		$latestTag = $this->cache()->get($cacheId);
+		$cacheId   = $this->infoCacheId('latestTag');
+		$latestTag = $this->infoCache()->get($cacheId);
 
 		if ($latestTag === null) {
 
@@ -183,13 +183,13 @@ class PluginPage extends Page
 			// 404: no releases are found
 			if ($response->code() === 200 && $latestTag) {
 				// caches for 3 hours if repository releases exists
-				$this->cache()->set($cacheId, $latestTag, 180);
+				$this->infoCache()->set($cacheId, $latestTag, 180);
 
 				// remove plugins representation cache
 				$this->kirby()->cache('pages')->remove('plugins.json');
 			} else {
 				// keeps the cache of a non-release repository longer (one day) for performance
-				$this->cache()->set($cacheId, $latestTag, 1440);
+				$this->infoCache()->set($cacheId, $latestTag, 1440);
 			}
 		}
 
@@ -200,7 +200,7 @@ class PluginPage extends Page
 			return null;
 		}
 
-		return $this->latestTag = $latestTag;
+		return $this->_latestTag = $latestTag;
 	}
 
 	public function license()

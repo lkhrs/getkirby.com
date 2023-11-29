@@ -34,3 +34,7 @@ dump($feed->articles());
 ----
 
 Versions: 3
+
+----
+
+Stars: 5

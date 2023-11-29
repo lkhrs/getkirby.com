@@ -2,7 +2,7 @@ Title: Bouncer
 
 ----
 
-Text:
+Text: 
 
 ----
 
@@ -19,3 +19,7 @@ Description: Restrict access of a user role to a specific page (and its children
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 50

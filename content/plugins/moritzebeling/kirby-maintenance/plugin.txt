@@ -2,7 +2,7 @@ Title: Maintenance Mode
 
 ----
 
-Text:
+Text: 
 
 ----
 
@@ -31,3 +31,7 @@ Example:
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 9

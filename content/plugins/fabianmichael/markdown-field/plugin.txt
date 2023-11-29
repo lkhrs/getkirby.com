@@ -23,3 +23,7 @@ Description: A highly customizable text editor with syntax highlighting for both
 ----
 
 Versions: 3
+
+----
+
+Stars: 152

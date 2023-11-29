@@ -23,3 +23,7 @@ Description: This plugin blocks the loading of content from external sources. Th
 ----
 
 Versions: 3
+
+----
+
+Stars: 24

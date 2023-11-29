@@ -38,3 +38,7 @@ Composer: lukasbestle/kirby-versions
 ----
 
 Versions: 3
+
+----
+
+Stars: 68

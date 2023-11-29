@@ -23,3 +23,7 @@ Description: Change every localized string within the Panel – other plugins in
 ----
 
 Versions: 3
+
+----
+
+Stars: 10

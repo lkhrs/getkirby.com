@@ -33,3 +33,7 @@ foreach ($page->similar($options) as $p) {
 ----
 
 Versions: 3
+
+----
+
+Stars: 28

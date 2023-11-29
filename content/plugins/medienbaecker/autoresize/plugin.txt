@@ -2,7 +2,7 @@ Title: Autoresize
 
 ----
 
-Text:
+Text: 
 
 ----
 
@@ -38,3 +38,7 @@ return [
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 79

@@ -2,7 +2,7 @@ Title: Janitor
 
 ----
 
-Text:
+Text: 
 
 ----
 
@@ -23,3 +23,7 @@ Description: Run command – like cleaning the cache – from within the Panel v
 ----
 
 Versions: 3,4
+
+----
+
+Stars: 74
