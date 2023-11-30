@@ -55,7 +55,7 @@ return [
 					$price->currency . ':' . $price->sale(),
 				];
 
-				go($product->checkout('buy', ['prices' => $prices]));
+				go($product->checkout('buy', compact('prices')));
 			} catch (Throwable $e) {
 				die($e->getMessage() . '<br>Please contact us: support@getkirby.com');
 			}
@@ -66,23 +66,17 @@ return [
 		'method'  => 'POST',
 		'action'  => function() {
 			$product  = get('product', 'basic');
-			$volume   = get('volume', 5);
+			$quantity = get('volume', 5);
 
 			try {
 				$product = Product::from($product);
 				$price   = $product->price();
 				$prices  = [
-					'EUR:'                 . $product->price('EUR', 1)->volume($volume),
-					$price->currency . ':' . $price->volume($volume),
+					'EUR:'                 . $product->price('EUR', 1)->volume($quantity),
+					$price->currency . ':' . $price->volume($quantity),
 				];
 
-				$url = $product->checkout('buy', [
-					'prices'            => $prices,
-					'quantity'          => $volume,
-					'quantity_variable' => false,
-				]);
-
-				go($url);
+				go($product->checkout('buy', compact('prices', 'quantity')));
 			} catch (Throwable $e) {
 				die($e->getMessage() . '<br>Please contact us: support@getkirby.com');
 			}
@@ -90,22 +84,16 @@ return [
 	],
 	[
 		'pattern' => 'buy/volume/(:any)/(:num)',
-		'action'  => function(string $product, int $volume) {
+		'action'  => function(string $product, int $quantity) {
 			try {
 				$product = Product::from($product);
 				$price   = $product->price();
 				$prices  = [
-					'EUR:'                 . $product->price('EUR', 1)->volume($volume),
-					$price->currency . ':' . $price->volume($volume),
+					'EUR:'                 . $product->price('EUR', 1)->volume($quantity),
+					$price->currency . ':' . $price->volume($quantity),
 				];
 
-				$url = $product->checkout('buy', [
-					'prices'            => $prices,
-					'quantity'          => $volume,
-					'quantity_variable' => false,
-				]);
-
-				go($url);
+				go($product->checkout('buy', compact('prices', 'quantity')));
 			} catch (Throwable $e) {
 				die($e->getMessage() . '<br>Please contact us: support@getkirby.com');
 			}
