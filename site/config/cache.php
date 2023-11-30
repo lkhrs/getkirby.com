@@ -9,6 +9,7 @@ return [
 		'active' => true,
 		'type'   => 'file',
 		'ignore' => [
+			'buy',
 			'love',
 			'partners'
 		]
