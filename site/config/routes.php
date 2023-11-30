@@ -45,28 +45,13 @@ return [
 		}
 	],
 	[
-		'pattern' => 'buy/prices/(:any?)',
-		'action' => function (string $currency = 'EUR') {
-			return json_encode([
-				'basic' => [
-					'regular' => Product::Basic->price($currency)->regular(),
-					'sale'    => Product::Basic->price($currency)->sale(),
-				],
-				'enterprise' => [
-					'regular' => Product::Enterprise->price($currency)->regular(),
-					'sale'    => Product::Enterprise->price($currency)->sale()
-				]
-			]);
-		}
-	],
-	[
-		'pattern' => 'buy/(:any)/(:any?)',
-		'action' => function (string $product, string $currency = 'EUR') {
+		'pattern' => 'buy/(:any)',
+		'action' => function (string $product) {
 			try {
 				$product = Product::from($product);
-				$price   = $product->price($currency);
+				$price   = $product->price();
 				$prices  = [
-					'EUR:'                 . $product->price('EUR')->sale(),
+					'EUR:'                 . $product->price('EUR', 1)->sale(),
 					$price->currency . ':' . $price->sale(),
 				];
 
@@ -81,14 +66,13 @@ return [
 		'method'  => 'POST',
 		'action'  => function() {
 			$product  = get('product', 'basic');
-			$currency = get('currency', 'EUR');
 			$volume   = get('volume', 5);
 
 			try {
 				$product = Product::from($product);
-				$price   = $product->price($currency);
+				$price   = $product->price();
 				$prices  = [
-					'EUR:'                 . $product->price('EUR')->volume($volume),
+					'EUR:'                 . $product->price('EUR', 1)->volume($volume),
 					$price->currency . ':' . $price->volume($volume),
 				];
 
@@ -105,13 +89,13 @@ return [
 		}
 	],
 	[
-		'pattern' => 'buy/volume/(:any)/(:num)/(:any)',
-		'action'  => function(string $product, int $volume, string $currency) {
+		'pattern' => 'buy/volume/(:any)/(:num)',
+		'action'  => function(string $product, int $volume) {
 			try {
 				$product = Product::from($product);
-				$price   = $product->price($currency);
+				$price   = $product->price();
 				$prices  = [
-					'EUR:'                 . $product->price('EUR')->volume($volume),
+					'EUR:'                 . $product->price('EUR', 1)->volume($volume),
 					$price->currency . ':' . $price->volume($volume),
 				];
 

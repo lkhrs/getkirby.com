@@ -72,9 +72,6 @@
 .strikethrough {
 	text-decoration: line-through;
 }
-.loading {
-	color: var(--color-gray-600);
-}
 
 @media (max-width: 40rem) {
 	.causes li:not(:first-child) {
@@ -117,16 +114,16 @@
 						Basic
 
 						<?php if ($sale->isActive()): ?>
-						<k-price product="basic" price="regular" class="loading px-1 color-gray-700 strikethrough">
-							€<?= Buy\Product::Basic->price()->regular() ?>
-						</k-price>
+						<span class="px-1 color-gray-700 strikethrough">
+							<?= $visitor->currencySign() . Buy\Product::Basic->price()->regular() ?>
+						</span>
 						<?php endif ?>
 					</h2>
 
-					<a href="/buy/basic/" target="_blank" class="checkout-link h2 block mb-3">
-						<k-price product="basic" price="sale" class="sale loading">
-							€<?= Buy\Product::Basic->price()->sale() ?>
-						</k-price> per site
+					<a href="/buy/basic" target="_blank" class="h2 block mb-3">
+						<span class="sale">
+							<?= $visitor->currencySign() . Buy\Product::Basic->price()->sale() ?>
+						</span> per site
 					</a>
 
 					<p class="text-sm color-gray-700">A discounted license for individuals, small teams and side projects</p>
@@ -135,7 +132,13 @@
 				<details class="revenue">
 					<summary><span>Revenue limit: <strong>€1M / year</strong></span> <?= icon('info') ?></summary>
 					<div>
-						<p>Your revenue or funding is less than <strong>€1&nbsp;million</strong> in the <strong>last 12 months</strong>.</p>
+						<p>
+							Your revenue or funding is less than <strong>€1&nbsp;million
+							<?php if ($visitor->currency() !== 'EUR'): ?>
+							(<?= $visitor->revenueLimit(1000000) ?>)
+							<?php endif ?>
+							</strong> in the <strong>last 12 months</strong>.
+						</p>
 						<p>If you build a website for a client, the limit has to fit the revenue of your client.</p>
 					</div>
 				</details>
@@ -144,7 +147,7 @@
 
 				<footer>
 					<p>
-						<a href="/buy/basic/" target="_blank" class="checkout-link btn btn--filled mb-1 w-100%">
+						<a href="/buy/basic" target="_blank" class="btn btn--filled mb-1 w-100%">
 							<?= icon('cart') ?>
 							Buy Basic
 						</a>
@@ -158,16 +161,16 @@
 						Enterprise
 
 						<?php if ($sale->isActive()): ?>
-						<k-price product="enterprise" price="regular" class="loading px-1 color-gray-700 strikethrough">
-							€<?= Buy\Product::Enterprise->price()->regular() ?>
-						</k-price>
+						<span class="px-1 color-gray-700 strikethrough">
+							<?= $visitor->currencySign() . Buy\Product::Enterprise->price()->regular() ?>
+						</span>
 						<?php endif ?>
 					</h2>
 
-					<a href="/buy/enterprise/" target="_blank" class="checkout-link h2 block mb-3">
-						<k-price product="enterprise" price="sale" class="sale loading">
-							€<?= Buy\Product::Enterprise->price()->sale() ?>
-						</k-price> per site
+					<a href="/buy/enterprise" target="_blank" class="h2 block mb-3">
+						<span class="sale">
+							<?= $visitor->currencySign() . Buy\Product::Enterprise->price()->sale() ?>
+						</span> per site
 					</a>
 
 					<p class="text-sm color-gray-700">Suitable for larger companies and organizations</p>
@@ -184,7 +187,7 @@
 
 				<footer>
 					<p>
-						<a href="/buy/enterprise/" target="_blank" class="checkout-link btn btn--filled mb-1 w-100%">
+						<a href="/buy/enterprise" target="_blank" class="btn btn--filled mb-1 w-100%">
 							<?= icon('cart') ?>
 							Buy Enterprise
 						</a>
@@ -197,7 +200,6 @@
 
   <section class="mb-42">
 		<form class="volume-discounts" method="POST" target="_blank" action="<?= url('buy/volume') ?>">
-			<input type="hidden" name="currency" value="EUR">
 			<header class="flex items-baseline justify-between mb-6">
 				<h2 class="h2">Volume discounts</h2>
 				<fieldset>
@@ -224,7 +226,7 @@
 								<?php endif ?>
 							</div>
 
-							<button class="checkout-link btn btn--filled mb-3" name="volume" value="<?= $volume ?>">
+							<button class="btn btn--filled mb-3" name="volume" value="<?= $volume ?>">
 								<?= icon('cart') ?> Buy now
 							</button>
 						</article>
@@ -305,63 +307,7 @@
 
 </article>
 
-<script type="text/javascript">
-
-class Price extends HTMLElement {
-
-	constructor() {
-		super();
-
-		this.product = this.getAttribute("product");
-		this.price = this.getAttribute("price");
-		this.currency = window.currency;
-		this.price = window.prices[this.product][this.price];
-	}
-
-	connectedCallback() {
-
-    // Try to use formatter with narrow currency symbol,
-    // fall back to normal symbol if not supported by browser
-    let formatter;
-    try {
-      formatter = new Intl.NumberFormat("en", {
-        style: "currency",
-        currency: this.currency,
-        currencyDisplay: "narrowSymbol",
-        minimumFractionDigits: 0
-      });
-    } catch (e) {
-      if (e.constructor !== RangeError) {
-        throw e;
-      }
-      formatter = new Intl.NumberFormat("en", {
-        style: "currency",
-        currency: this.currency,
-        minimumFractionDigits: 0
-      });
-    }
-
-		this.innerHTML = formatter.format(this.price);
-		this.classList.remove("loading");
-	}
-
-}
-
-async function paddle_price(data) {
-	window.currency = data.response.products[0].currency;
-
-	const response = await fetch("/buy/prices/" + window.currency);
-	window.prices  = await response.json();
-
-	customElements.define("k-price", Price);
-
-	for (const link of [...document.querySelectorAll(".checkout-link")]) {
-		link.href += window.currency;
-	}
-
-	document.querySelector("input[name=currency]").value = window.currency;
-}
-
+<script>
 document.addEventListener("click", (event) => {
 	for (const details of [...document.querySelectorAll("details")]) {
 		if (details.contains(event.target) === false) {
@@ -370,4 +316,3 @@ document.addEventListener("click", (event) => {
 	}
 });
 </script>
-<script src="https://checkout.paddle.com/api/2.0/prices?product_ids=824338&callback=paddle_price"></script>
